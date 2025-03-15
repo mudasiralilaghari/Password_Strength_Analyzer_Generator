@@ -10,7 +10,7 @@ def generate_password(Length,use_digits,use_special):
         characters += string.punctuation
     return "".join(random.choice(characters) for _ in range(Length))
 
-st.title("Password Strength Analyzer & Generator")
+st.title("Password Strength Analyzer & Generator by Mudasir Ali")
 
 length = st.slider("Select Password Length",min_value=6 , max_value=32, value=12)
 
